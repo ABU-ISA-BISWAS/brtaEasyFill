@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="form_a4" language="javascript" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="1c14c42f-9d4a-4296-bfa7-889c39f92a02">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<field name="name" class="java.lang.String"/>
+	<field name="phone" class="java.lang.String"/>
+	<field name="email" class="java.lang.String"/>
+	<field name="address" class="java.lang.String"/>
+	<title>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="20" uuid="8e7c951e-65e8-4ac9-983e-7da81574e7b9"/>
+				<text><![CDATA[Form Information (A4)]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="100">
+			<textField>
+				<reportElement x="0" y="0" width="555" height="20" uuid="3e8d7f4d-3b5f-4d55-b431-e09e4380ea48"/>
+				<textFieldExpression><![CDATA["Name: " + $F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="20" width="555" height="20" uuid="2df78e85-5738-4c12-80da-766491570a76"/>
+				<textFieldExpression><![CDATA["Phone: " + $F{phone}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="40" width="555" height="20" uuid="bb433d6e-7eee-476d-9a24-8ebdd3202a43"/>
+				<textFieldExpression><![CDATA["Email: " + $F{email}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="60" width="555" height="20" uuid="81fb269a-382b-4ea4-89e0-2166c4f5eb3d"/>
+				<textFieldExpression><![CDATA["Address: " + $F{address}]]></textFieldExpression>
+			</textField>
+			<break>
+				<reportElement x="0" y="98" width="100" height="1" uuid="b48ea893-27a0-4aa8-9bd8-264e81a6f8f4"/>
+			</break>
+		</band>
+		<band height="100">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="50" y="10" width="210" height="41" uuid="90bd7058-6d8f-4bc8-8100-7f7bf52d5ed6"/>
+				<textElement>
+					<font fontName="Nikosh" size="19"/>
+				</textElement>
+				<text><![CDATA[২য় পৃষ্ঠা থেকে বলছি a4a]]></text>
+			</staticText>
+			<break>
+				<reportElement x="0" y="98" width="100" height="1" uuid="80ffda8c-740f-4208-9e38-9ebbc077228f"/>
+			</break>
+		</band>
+		<band height="100">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<break>
+				<reportElement x="0" y="98" width="100" height="1" uuid="e067f739-83ac-455e-a5f9-df8ddb2fa0cc"/>
+			</break>
+			<staticText>
+				<reportElement x="50" y="10" width="140" height="41" uuid="6dede93e-b59e-42e9-8def-f94d12cd988c"/>
+				<text><![CDATA[hello from 3rd page]]></text>
+			</staticText>
+		</band>
+		<band height="100">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="50" y="10" width="140" height="41" uuid="c873eb0e-da9d-4732-9c34-e7aaa716526e"/>
+				<text><![CDATA[hello from 4th page]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
