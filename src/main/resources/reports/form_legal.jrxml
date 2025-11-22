@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="form_legal" pageWidth="595" pageHeight="950" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="290" bottomMargin="10" uuid="1c14c42f-9d4a-4296-bfa7-889c39f92a03">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<field name="regAuth" class="java.lang.String"/>
+	<field name="viType" class="java.lang.String"/>
+	<field name="viRegNum" class="java.lang.String"/>
+	<field name="viChassisNo" class="java.lang.String"/>
+	<field name="viEnginNo" class="java.lang.String"/>
+	<field name="viManufacturer" class="java.lang.String"/>
+	<field name="viRegYear" class="java.lang.String"/>
+	<field name="viModel" class="java.lang.String"/>
+	<field name="viCC" class="java.lang.String"/>
+	<field name="viPrevRegNo" class="java.lang.String"/>
+	<field name="viSellPrice" class="java.lang.String"/>
+	<field name="viBankName" class="java.lang.String"/>
+	<field name="seName" class="java.lang.String"/>
+	<field name="seFatherName" class="java.lang.String"/>
+	<field name="seMotherName" class="java.lang.String"/>
+	<field name="seNID" class="java.lang.String"/>
+	<field name="seTIN" class="java.lang.String"/>
+	<field name="sePermenentAdd" class="java.lang.String"/>
+	<field name="sePresentAdd" class="java.lang.String"/>
+	<field name="seNationality" class="java.lang.String"/>
+	<field name="seRelegion" class="java.lang.String"/>
+	<field name="seProfession" class="java.lang.String"/>
+	<field name="sePhone" class="java.lang.String"/>
+	<field name="seSpouse" class="java.lang.String"/>
+	<field name="buName" class="java.lang.String"/>
+	<field name="buFatherName" class="java.lang.String"/>
+	<field name="buMotherName" class="java.lang.String"/>
+	<field name="buSpouse" class="java.lang.String"/>
+	<field name="buGuardianName" class="java.lang.String"/>
+	<field name="buGender" class="java.lang.String"/>
+	<field name="buDoB" class="java.lang.String"/>
+	<field name="buNID" class="java.lang.String"/>
+	<field name="buTIN" class="java.lang.String"/>
+	<field name="buPermenentAdd" class="java.lang.String"/>
+	<field name="buPresentAdd" class="java.lang.String"/>
+	<field name="buNationality" class="java.lang.String"/>
+	<field name="buRelegion" class="java.lang.String"/>
+	<field name="buProfession" class="java.lang.String"/>
+	<field name="buPhone" class="java.lang.String"/>
+	<field name="createdByName" class="java.lang.String"/>
+	<detail>
+		<band height="650">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="170" y="1" width="205" height="20" uuid="780d4d3a-5bd0-47c5-8cf6-7fee16370d7c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[-ঃগাড়ী ক্রেতা হলফনামাঃ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="122" y="21" width="310" height="20" uuid="31d41c56-e6f2-411a-b6cb-d979ec5979fb">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[নোটারী পাবলিকের কার্যালয়, ঢাকা, বাংলাদেশ ।]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="76" width="100" height="17" uuid="a831088f-efdb-493f-80cd-96577ba14c3a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[দ্বিতীয় পক্ষ (ক্রেতা)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="95" width="100" height="17" uuid="4c777c5a-12a8-4674-9db1-d8a90d055ae4">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[আমি/আমরা]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="95" width="380" height="17" uuid="45397c39-4eb4-4027-a26c-af8e3d771e79">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{buName} == null ? "" :$F{buName}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="119" y="95" width="30" height="17" uuid="4c82dc4d-c541-4dae-9e35-7750ca7a19b7">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="113" width="100" height="17" uuid="1ac1b6c5-1b03-4279-9ee6-ccdb9cbea701">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[পিতা/স্বামী]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="113" width="30" height="17" uuid="f5942d3a-3734-4f88-8a7b-b451f92851f1">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="113" width="380" height="17" uuid="65fd716b-6693-48f8-bd3d-fe8d3d8da6fd">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{buFatherName} == null ? "" :$F{buFatherName}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="149" width="100" height="17" uuid="bf812891-423c-4109-abf9-79f67b527e47">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[ধর্ম]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="149" width="30" height="17" uuid="c5b3eec7-89cf-44be-9735-5e8194e03d9d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="149" width="380" height="17" uuid="f47de4d2-0aa8-4ff6-928c-12a915057ce2">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{buRelegion} == null ? "" :$F{buRelegion}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="167" width="100" height="17" uuid="1bcee274-1281-435e-b555-13f0fe34c800">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[পেশা ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="167" width="30" height="17" uuid="912cb99b-a661-491f-9eae-1c134c5d124e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="167" width="380" height="17" uuid="480ca99f-632f-4dde-b1a9-298b3b50b474">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{buProfession} == null ? "" :$F{buProfession}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="185" width="100" height="51" uuid="042d3296-3063-411a-a49e-714a809adb35">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[স্থায়ী ঠিকানা]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="185" width="30" height="51" uuid="f365bae3-6ed5-4d96-8459-19561d1f3ccf">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="185" width="380" height="51" uuid="8b8c95c0-912c-49df-ac4a-23d5776cfbca">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{buPermenentAdd} == null ? "" :$F{buPermenentAdd}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="237" width="100" height="51" uuid="2921c3a6-cfcc-446a-a62b-513d204edf04">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[অস্থায়ী ঠিকানা
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="237" width="30" height="51" uuid="cfee2d2f-7141-4082-ac4c-9d3a6be9f452">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="237" width="380" height="51" uuid="02a6c950-2ab1-45c2-857c-dce9464bfaad">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{buPresentAdd} == null ? "" :$F{buPresentAdd}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="291" width="520" height="17" uuid="75a4008c-64d0-4bd0-8a51-5d2ad7dc8f4e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[আমি/আমরা হলফপূর্বক ঘোষণা করিতেছি যে, আমি/আমরা একটি পুরাতন গাড়ী ক্রয় করিয়াছি, যাহার ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="327" width="100" height="17" uuid="afcd976c-4853-4ff1-a57e-732561e158bd">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[রেজিস্ট্রেশন নম্বর]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="345" width="100" height="17" uuid="ef198c2c-bfdb-4f16-89dd-d471f1ba389f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[চেসিস নম্বর]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="327" width="30" height="17" uuid="7eae1f0c-8463-4bc6-804f-66b20f45b14b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="363" width="100" height="17" uuid="b9e98191-0ddd-4461-8c34-f93f5db53bff">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[ইঞ্জিন নম্বর]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="309" width="30" height="17" uuid="0eec719b-fdb1-4cd9-a0f3-de27b5e5d476">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="399" width="100" height="17" uuid="595664ff-d23c-4110-9ce5-dbceae293789">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[প্রস্তুতকাল]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="381" width="30" height="17" uuid="9fc0e34b-126d-4405-bc4c-0a901e8347af">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="381" width="380" height="17" uuid="eab97842-abf0-4865-a401-3c48f8c87a76">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viManufacturer} == null ? "" :$F{viManufacturer}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="119" y="363" width="30" height="17" uuid="dad1e1b3-c08d-44f7-b5f8-0697343da596">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="399" width="30" height="17" uuid="f35acb71-2726-46c3-a2a4-6ce6aa68df60">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="309" width="100" height="17" uuid="963dd9f4-0092-4e03-9d1e-5136b8611266">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[মডেল]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="381" width="100" height="17" uuid="2b5f6d75-e794-46a3-bbb3-6a1a25db7b73">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[প্রস্তুতকারক]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="363" width="380" height="17" uuid="371b996a-bdff-4c8f-9883-dba6d97dbecd">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viEnginNo} == null ? "" :$F{viEnginNo}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="159" y="399" width="81" height="17" uuid="a6e7b9d1-0917-4a41-bc83-4f839f749df8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viModel} == null ? "" :$F{viModel}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="159" y="345" width="380" height="17" uuid="b0ce64a4-6fc7-41ea-a269-df4a18857cb3">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viChassisNo} == null ? "" :$F{viChassisNo}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="159" y="309" width="380" height="17" uuid="07e22bc2-22da-4b22-9d07-7aec6fed4ce7">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viModel} == null ? "" :$F{viModel}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="119" y="345" width="30" height="17" uuid="d517a75f-1eeb-495e-bd9c-8ee5cee79e30">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="327" width="380" height="17" uuid="950a03b5-9b79-4430-ae8f-50a0db1d0e73">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viRegNum} == null ? "" :$F{viRegNum}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="313" y="399" width="100" height="17" uuid="f1ff37a6-06f3-4208-8370-b089d496cd21">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[সিসি]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="413" y="399" width="30" height="17" uuid="ec7560d7-f26e-478a-b493-1772cd07010e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="453" y="399" width="86" height="17" uuid="5458690a-bc26-4019-8bd8-d228f7b946e7">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viCC} == null ? "" :$F{viCC}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="19" y="630" width="60" height="16" uuid="fc88fe65-2df9-4250-b083-6b35d71f8aa8">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[" Printed on :"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="630" width="120" height="16" uuid="fcec6c78-e2ff-42d9-8caa-d6ded3fcf76e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd-MM- yyyy hh:mm a").format(new Date())]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="422" y="630" width="130" height="16" uuid="5e13a9da-4f32-4081-ba59-cf0340463b75">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+			</textField>
+			<break>
+				<reportElement x="0" y="649" width="100" height="1" uuid="091624f1-4371-42b3-8eb9-2ee0c21e29d2">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</break>
+			<staticText>
+				<reportElement x="445" y="583" width="100" height="17" uuid="f0d05eca-b350-416f-85b8-d35e440d5567">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[চলমান পাতা-১
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="131" width="100" height="17" uuid="4c438431-4768-4313-b829-a4e6ed913b9f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[জাতীয়তা ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="131" width="30" height="17" uuid="cdb8cfa7-10bf-42f3-923d-5e79d3325f42">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="131" width="380" height="17" uuid="6ae3980a-e9f0-4feb-a6c2-90754d884fbf">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{buNationality} == null ? "" :$F{buNationality}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="228" y="630" width="130" height="16" uuid="5155c712-56a5-49bd-b48c-32f7c26a5731">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Printed by: " +$F{createdByName}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="650">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="19" y="11" width="100" height="17" uuid="2f24e6fe-97b2-44ca-bcf2-191ab10ed492">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[প্রথম পক্ষ (বিক্রেতা) 
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="30" width="100" height="17" uuid="315343b6-a6f8-463a-9b71-e570bc1f2d75">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[নাম ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="30" width="380" height="17" uuid="ea8ead77-bad5-4b20-90a2-44f29de97eff">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{seName} == null ? "" :$F{seName}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="119" y="30" width="30" height="17" uuid="057041a5-110d-4aec-819d-25393b940f43">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="48" width="100" height="17" uuid="818f986e-b3dd-4c36-aaa8-a0606ae95a38">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[পিতা/স্বামী]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="48" width="30" height="17" uuid="278d4c89-60ca-4d69-8ea4-3c882c3944ac">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="48" width="380" height="17" uuid="45789352-0ee7-45f0-b6de-20f32a3e26da">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{seFatherName} == null ? "" :$F{seFatherName}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="66" width="100" height="51" uuid="c05cf826-d54d-4a4b-ba65-d90886399b84">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[স্থায়ী ঠিকানা]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="66" width="30" height="51" uuid="688c1349-5c9f-4a63-a38a-53b540dd1e64">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="66" width="380" height="51" uuid="7d74469a-6347-48d1-ae77-cfb9e3660782">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sePermenentAdd} == null ? "" :$F{sePermenentAdd}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="118" width="100" height="51" uuid="b59b0a16-60e2-44e3-b54c-81400f0fc0b6">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[অস্থায়ী ঠিকানা
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="118" width="30" height="51" uuid="0a914a76-e03f-49c3-b2f4-65432383e414">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="118" width="380" height="51" uuid="baba0823-c1fe-4337-903b-07922da0fbf1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sePresentAdd} == null ? "" :$F{sePresentAdd}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="206" width="520" height="17" uuid="018914a2-800d-47c8-a831-6143b87d29ab">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[টাকা এবং সম্পূর্ণ টাকা নগদ পরিশোধ করিয়া তাহার নামের যাবতীয় কাগজ পত্র সহ গাড়ীটি ও মালিকানা বুঝিয়া নিয়াছি । ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="19" y="630" width="60" height="16" uuid="9c5cffb2-c929-4b45-8925-ce15a4103898">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[" Printed on :"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="630" width="120" height="16" uuid="311ba3c6-a74f-4305-a729-73789fb4dc72">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd-MM- yyyy hh:mm a").format(new Date())]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="422" y="630" width="130" height="16" uuid="705575f9-f3e1-42f6-b23b-682430cd5520">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+			</textField>
+			<break>
+				<reportElement x="0" y="649" width="100" height="1" uuid="6187ad07-dca0-4270-af31-1bf518e95715">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</break>
+			<staticText>
+				<reportElement x="445" y="583" width="100" height="17" uuid="c96f222b-d520-4789-94c6-2407bd68dd8d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[চলমান পাতা-২
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="170" width="520" height="17" uuid="73540373-7690-4bd2-a809-2a72feaa7d24">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[আমি/আমরা (দ্বিতীয় পক্ষ) প্রথম পক্ষের নিকট হইতে পুরাতন গাড়ী ক্রয় করিয়াছি। ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="188" width="55" height="17" uuid="ce642fea-ae03-4ed7-bc94-62afdfafc165">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[গাড়ীটির মূল্য]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="76" y="188" width="463" height="17" uuid="c620bc8a-39f1-4dfe-a3e4-21d3b07dc001">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{viSellPrice} != null && !$F{viSellPrice}.trim().isEmpty()) 
+    ? com.isa.brtaeasyfill.util.NumberToWordsUtil.convertNumberToWords($F{viSellPrice}) 
+        + " (" + $F{viSellPrice} + ")" 
+    : ""
+]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="228" y="630" width="130" height="16" uuid="86a7b008-a125-49a1-85dc-f6f51ee5fea8">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Printed by: " +$F{createdByName}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="650">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="229" y="40" width="85" height="17" uuid="44668b94-6694-4f3c-b78a-b5c068de8e0b">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[পাতা-০৩]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="279" y="465" width="203" height="9" uuid="d2530dc7-c643-4adf-82c8-78c006cc11d4">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.25" lineStyle="Dashed"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="19" y="630" width="60" height="16" uuid="996ac8bb-c940-42db-9c4a-8836ec86280a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[" Printed on :"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="630" width="120" height="16" uuid="73467f86-295d-4465-b760-7efb57dde50a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd-MM- yyyy hh:mm a").format(new Date())]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="415" y="630" width="130" height="16" uuid="5a9a6f18-d37f-4077-8fb9-650dc9741425">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+			</textField>
+			<break>
+				<reportElement x="0" y="649" width="100" height="1" uuid="077f7d3e-30df-4f54-bbf4-0b43628c2881">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</break>
+			<staticText>
+				<reportElement x="445" y="583" width="100" height="17" uuid="759d9528-ee08-4814-be7c-56ad7c8f2728">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[চলমান পাতা-৩]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="64" width="530" height="43" uuid="9a61c9a8-205d-4a02-8178-95b60b4396b9">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[উল্লেখিত গাড়ী আমার নামে মালিকানা বদলী করিলে মালিকানা সংক্রান্ত কাগজপত্রে কোন জটিলতা সৃষ্টি হইলে উহার সম্পূর্ণ দায়-দায়িত্ব আমি/আমরা বহন করিব। বি.আর.টি.এ কর্তৃপক্ষ কোন দায় দায়িত্ব বহন করিবে না। উপরোক্ত বিবরণ পড়িয়া এবং শুনিয়া উহার মর্ম বুঝিয়া কাহারো প্ররোচনায় প্ররোচিত না হইয়া অন্যের বিনা অনুরোধে ও সুস্থ শরীরে, স্বজ্ঞানে অত্র হলফনামায় আমার/আমাদের নিজ নাম স্বাক্ষর করিলাম।]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="325" y="284" width="112" height="17" uuid="e0a12a18-8e31-44f4-9bff-66a988e9806f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[হলফকারীর স্বাক্ষর (ক্রেতা)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="297" y="332" width="169" height="17" uuid="ed570ae6-1c15-422c-85e1-7c22be695f57">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[হলফকারী আমার সম্মুখে স্বাক্ষর করিয়াছেন,
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="324" y="354" width="116" height="17" uuid="dd299895-2351-4455-aeb9-5aa6f7ff781f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[আমি তাহাকে সনাক্ত করিলাম।]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="313" width="41" height="17" uuid="7e89fb76-9077-4143-a79f-c4543198fda8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[তারিখ :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="347" y="477" width="66" height="17" uuid="d9a1bcf2-7994-4c2a-b3e3-29244aa16a2e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[এডভোকেট]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="228" y="630" width="130" height="16" uuid="f009f89d-5072-41da-8d48-169be73faa52">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Printed by: " +$F{createdByName}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="650">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="170" y="1" width="205" height="20" uuid="054c3fb5-d6a1-4924-830f-3d8f6b8c02b3">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[-ঃগাড়ী বিক্রয় হলফনামাঃ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="122" y="21" width="310" height="20" uuid="3fb41e29-8831-46a0-9af7-58851da0bfc8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[নোটারী পাবলিকের কার্যালয়, ঢাকা, বাংলাদেশ ।]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="76" width="100" height="17" uuid="9f8f584f-0357-4ff2-98ad-37e38dc9cd83">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[প্রথম পক্ষ (বিক্রেতা) 
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="95" width="100" height="17" uuid="3b782660-c640-4bbd-83f1-691fea19ab19">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[আমি/আমরা]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="95" width="380" height="17" uuid="8b1deeba-c724-447d-8a08-89c66f317014">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{seName} == null ? "" :$F{seName}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="119" y="95" width="30" height="17" uuid="a0a0ac25-7dee-48ae-a3b9-215636012ef6">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="113" width="100" height="17" uuid="ab2f3224-5837-4b25-95bb-7b29be6e9ab4">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[পিতা/স্বামী]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="113" width="30" height="17" uuid="8878ca08-830a-4af9-944e-0dac8874ca45">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="113" width="380" height="17" uuid="31832e5b-de9c-4200-8570-62cc0445a4e7">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{seFatherName} == null ? "" :$F{seFatherName}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="149" width="100" height="17" uuid="f9b3e05a-e777-4c3d-8fdc-ee2550372810">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[ধর্ম]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="149" width="30" height="17" uuid="0846fcde-75d2-4171-b104-76b57c479d89">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="149" width="380" height="17" uuid="0fe5d476-16fd-48e1-8693-7dedc49ea387">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{seRelegion} == null ? "" :$F{seRelegion}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="167" width="100" height="17" uuid="39a6fec3-7182-4c04-b0fd-fe334975b53f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[পেশা ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="167" width="30" height="17" uuid="5a062642-042e-4010-b9d3-bd112be56bf6">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="167" width="380" height="17" uuid="0a216c6a-1701-40dc-b38d-d68918673243">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{seProfession} == null ? "" :$F{seProfession}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="185" width="100" height="51" uuid="4295eac4-c66b-4a8d-9960-7d35d1e0308a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[স্থায়ী ঠিকানা]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="185" width="30" height="51" uuid="94913c82-0eef-4e54-a65b-08721f0edc6a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="185" width="380" height="51" uuid="42dbe951-c271-46ad-a72c-45b131077e15">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sePermenentAdd} == null ? "" :$F{sePermenentAdd}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="237" width="100" height="51" uuid="cdbf83a0-8828-4f82-b636-a21105471b03">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[অস্থায়ী ঠিকানা
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="237" width="30" height="51" uuid="df51f281-6132-4264-93bf-85b67c36ccf3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="237" width="380" height="51" uuid="f9ab780c-1c50-471e-953d-a756f038e49f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sePresentAdd} == null ? "" :$F{sePresentAdd}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="291" width="520" height="17" uuid="4b72042a-3ddb-4851-abf4-b3443616e150">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[আমি/আমরা হলফপূর্বক ঘোষণা করিতেছি যে, আমি/আমরা একটি পুরাতন গাড়ী বিক্রয় করিয়াছি, যাহার ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="327" width="100" height="17" uuid="c9ee89e3-0acb-44f3-a763-62ad285cdb11">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[রেজিস্ট্রেশন নম্বর]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="345" width="100" height="17" uuid="39e3726f-44b5-4710-9663-c27b956775a6">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[চেসিস নম্বর]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="327" width="30" height="17" uuid="37a33c29-6204-4e60-bc7b-055f1abe615c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="363" width="100" height="17" uuid="98e2def8-24b9-44ca-ace6-a4ed08c7f28b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[ইঞ্জিন নম্বর]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="309" width="30" height="17" uuid="edcbd6ef-eba4-45c9-9d5b-21033b76707a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="399" width="100" height="17" uuid="36f065ec-e68b-41fd-8970-08fdd580879f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[প্রস্তুতকাল]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="381" width="30" height="17" uuid="51037276-f7e9-41a2-a873-79e268a94c44">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="381" width="380" height="17" uuid="58699ed3-1a5d-43f5-a7cf-d14d63437c17">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viManufacturer} == null ? "" :$F{viManufacturer}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="119" y="363" width="30" height="17" uuid="a8ebd95d-fd1f-43f7-b9b0-06d5c57d8b55">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="399" width="30" height="17" uuid="16764f03-93c1-49e8-9ab7-0a97ed210055">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="309" width="100" height="17" uuid="47c8a7a3-7cad-4b38-87f0-a9ef094b0b6d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[মডেল]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="381" width="100" height="17" uuid="74ad92b4-75c7-4130-abe6-861e60c61d2b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[প্রস্তুতকারক]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="363" width="380" height="17" uuid="38684724-b10a-4dd7-bba2-47c344aafcfc">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viEnginNo} == null ? "" :$F{viEnginNo}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="159" y="399" width="81" height="17" uuid="9eed051f-57a7-4985-9244-cc76fadd4c8d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viModel} == null ? "" :$F{viModel}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="159" y="345" width="380" height="17" uuid="6c3eda97-955f-4a97-a8f3-e1b06e180bb3">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viChassisNo} == null ? "" :$F{viChassisNo}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="159" y="309" width="380" height="17" uuid="20d7ae7c-d88b-4350-b068-f84a6b0dd916">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viModel} == null ? "" :$F{viModel}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="119" y="345" width="30" height="17" uuid="c44d002e-ddfc-4350-a951-494a32a5e4da">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="327" width="380" height="17" uuid="891577ed-21e5-4393-ab9f-6c46114cb11b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viRegNum} == null ? "" :$F{viRegNum}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="313" y="399" width="100" height="17" uuid="fd8f8779-3dc2-418d-a91f-fe915301b729">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[সিসি]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="413" y="399" width="30" height="17" uuid="3b7ff5cf-de2f-4183-a42c-50a0eb8c00c7">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="453" y="399" width="86" height="17" uuid="771ad563-25db-4541-a418-6533507c8e26">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{viCC} == null ? "" :$F{viCC}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="19" y="630" width="60" height="16" uuid="81d03da0-dd2d-4681-8d04-6b1b851a702f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[" Printed on :"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="630" width="120" height="16" uuid="a41430d5-6322-474e-b49f-b37ce53080dd">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd-MM- yyyy hh:mm a").format(new Date())]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="422" y="630" width="130" height="16" uuid="79151051-ba7b-4c0c-912b-42fba666f0c0">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+			</textField>
+			<break>
+				<reportElement x="0" y="649" width="100" height="1" uuid="d4d93d4c-7fc0-4b1b-b3d4-32262ac66e6c">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</break>
+			<staticText>
+				<reportElement x="445" y="583" width="100" height="17" uuid="63622f91-2444-481d-96fb-85fca6756f58">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[চলমান পাতা-১
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="131" width="100" height="17" uuid="f92f69a3-6894-4d30-8ef8-075656a836af">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[জাতীয়তা ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="131" width="30" height="17" uuid="8f6008dc-ad26-47e2-b938-af9e53bac087">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="131" width="380" height="17" uuid="acd2b9e1-5cde-4e35-93fa-24cf71cdfc49">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{seNationality} == null ? "" :$F{seNationality}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="228" y="630" width="130" height="16" uuid="46b63933-935d-41da-9b30-a4f802f485bc">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Printed by: " +$F{createdByName}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="650">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="19" y="11" width="100" height="17" uuid="ff107583-b2a3-4acf-94cb-e44142f215f8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[দ্বিতীয় পক্ষ (ক্রেতা)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="30" width="100" height="17" uuid="3f458670-dc16-49db-94b2-47eba207f82b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[নাম ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="30" width="380" height="17" uuid="5e1f7d33-a4d0-4e5a-846e-1d5db2e152e9">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{buName} == null ? "" :$F{buName}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="119" y="30" width="30" height="17" uuid="90684dfe-4b8f-4ed2-bc98-94600e21e47e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="48" width="100" height="17" uuid="c32a776b-bfe2-4be4-b021-276d24789d7e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[পিতা/স্বামী]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="48" width="30" height="17" uuid="ebfc958b-fca3-49a8-997f-745924f8a1e8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="48" width="380" height="17" uuid="6442c797-3f16-419f-95fd-1b6b0088b424">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{buFatherName} == null ? "" :$F{buFatherName}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="66" width="100" height="51" uuid="8504bd0d-d0e3-4cb9-8f82-213d776c2534">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[স্থায়ী ঠিকানা]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="66" width="30" height="51" uuid="22ed37c3-2bb4-4e55-97d6-5455d1aa8d70">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="66" width="380" height="51" uuid="27e85921-f3d1-4c55-a8ca-d52ac8783e03">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{buPermenentAdd} == null ? "" :$F{buPermenentAdd}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="118" width="100" height="51" uuid="fbe0bdbe-b4f6-4835-9194-49c7789787cf">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[অস্থায়ী ঠিকানা
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="118" width="30" height="51" uuid="01341e28-a015-4c4d-8438-df0a75a00d11">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="159" y="118" width="380" height="51" uuid="aec75dc4-3a61-49c1-b87c-db2aac0b25ff">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{buPresentAdd} == null ? "" :$F{buPresentAdd}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="19" y="206" width="520" height="30" uuid="6554a477-5fd7-4c18-95b2-208adf6659c3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[টাকা এবং সম্পূর্ণ টাকা নগদ বুঝিয়া পাইয়া আমরা/আমাদের নামের গাড়ীটির যাবতীয় কাগজ পত্র সহ গাড়ীটি বুঝাইয়া দিয়াছি। গাড়ীটির বিরুদ্ধে ট্র্যাফিক আইনে অথবা অন্য কোন মামলা মোকাদ্দমা নাই। ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="19" y="630" width="60" height="16" uuid="89441691-f062-4f99-ba4a-3f62bf8b61c8">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[" Printed on :"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="630" width="120" height="16" uuid="ca528655-946f-4109-b7ba-b3321197764e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd-MM- yyyy hh:mm a").format(new Date())]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="422" y="630" width="130" height="16" uuid="6668ca51-645c-47af-b6eb-705d6cdecd89">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+			</textField>
+			<break>
+				<reportElement x="0" y="649" width="100" height="1" uuid="a6f4d072-f180-41af-85f6-8819f2e89d58">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</break>
+			<staticText>
+				<reportElement x="445" y="583" width="100" height="17" uuid="339c14ca-d49d-400e-94e8-3a5fdac99379">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[চলমান পাতা-২
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="170" width="520" height="17" uuid="76e6e38c-763e-4531-a883-230048fbf787">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[আমি/আমরা (প্রথম পক্ষ) দ্বিতীয় পক্ষের নিকট পুরাতন গাড়ী বিক্রয় করিয়াছি।]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="188" width="55" height="17" uuid="e9735faf-c74b-44b9-bc6b-f26625ecde69">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[গাড়ীটির মূল্য]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="76" y="188" width="463" height="17" uuid="f1b8e1a8-f8bf-4273-8245-40e533ed1642">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{viSellPrice} != null && !$F{viSellPrice}.trim().isEmpty()) 
+    ? com.isa.brtaeasyfill.util.NumberToWordsUtil.convertNumberToWords($F{viSellPrice}) 
+        + " (" + $F{viSellPrice} + ")" 
+    : ""
+]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="228" y="630" width="130" height="16" uuid="b625c5a3-3119-4399-9cf4-bddd07d5a197">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Printed by: " +$F{createdByName}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="650">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="229" y="40" width="85" height="17" uuid="b9ee9a88-4380-494b-8a47-15708a5ee0f7">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[পাতা-০৩]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="279" y="465" width="203" height="9" uuid="3162ac5b-e7b0-430c-a804-3aa6fde9fb39">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.25" lineStyle="Dashed"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="19" y="630" width="60" height="16" uuid="304ac112-1365-4035-b88d-171ed267d03c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[" Printed on :"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="630" width="120" height="16" uuid="64f1df7f-b5d7-44ce-986f-08273c5342f5">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd-MM- yyyy hh:mm a").format(new Date())]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="415" y="630" width="130" height="16" uuid="7907f36c-ff6d-4649-bbf6-f8a0f4dd3f35">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+			</textField>
+			<break>
+				<reportElement x="0" y="649" width="100" height="1" uuid="292f88d2-d04a-4add-9d1e-8c6a9b3dd5fa">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</break>
+			<staticText>
+				<reportElement x="445" y="583" width="100" height="17" uuid="07da5a7e-36da-4afa-9c7a-7f92187ac609">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[চলমান পাতা-৩]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="64" width="530" height="58" uuid="76dc7306-0a71-4d4d-909b-6648413cb522">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[মালিকানা বদলী সংক্রান্ত কোন জটিলতা সৃষ্টি হইলে উহার সম্পূর্ণ দায়-দায়িত্ব আমি/আমরা বহন করিব। বর্তমানে ক্রেতার বরাবরে নামজারী করিয়া দিলে আমার/আমাদের কোন আপত্তি নাই। অত্র অঙ্গিকারনামার সম্পূর্ণ বিবরণ নির্ভুল এবং সত্য। ইতিপূর্বে গাড়ীটি কাহারো নিকট বন্ধক/বিক্রয় করা হয় নাই। সম্পূর্ণ নিষ্কণ্টক অবস্থায় বিক্রয় করা হইল। উপরোক্ত বিবরণ পড়িয়া এবং শুনিয়া উহার মর্ম বুঝিয়া কাহারো প্ররোচনায় প্ররোচিত না হইয়া অন্যের বিনা অনুরোধে ও সুস্থ শরীরে, স্বজ্ঞানে অত্র হলফনামায় আমার/আমাদের নিজ নাম স্বাক্ষর করিলাম।]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="325" y="284" width="112" height="17" uuid="f2723da6-746d-4d89-b574-967f2c3eba06">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[হলফকারীর স্বাক্ষর (বিক্রেতা)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="297" y="332" width="169" height="17" uuid="9f17310f-51e6-4796-905c-09132cf597a5">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[হলফকারী আমার সম্মুখে স্বাক্ষর করিয়াছেন,
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="324" y="354" width="116" height="17" uuid="27262206-7657-4df1-ac62-c428cbfc24b9">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[আমি তাহাকে সনাক্ত করিলাম।]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="313" width="41" height="17" uuid="5fc0e88d-8851-4695-80df-524742d68672">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Nikosh" size="12"/>
+				</textElement>
+				<text><![CDATA[তারিখ :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="347" y="477" width="66" height="17" uuid="eaed1238-eb42-40a8-a216-fe1bc712f544">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Nikosh" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[এডভোকেট]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="228" y="630" width="130" height="16" uuid="081b3187-7359-4d0c-b600-92a5bf6d8c15">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Printed by: " +$F{createdByName}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

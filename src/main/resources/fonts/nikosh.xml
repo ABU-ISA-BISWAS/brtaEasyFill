@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+    <fontFamily name="Nikosh">
+        <normal><![CDATA[fonts/Nikosh.ttf]]></normal>
+
+        <!-- নিচেরগুলো থাকলে আরও ভালো, তবে Optional -->
+        <!--
+<bold><![CDATA[fonts/Nikosh-Bold.ttf]]></bold>
+        <italic><![CDATA[fonts/Nikosh-Italic.ttf]]></italic>
+        <boldItalic><![CDATA[fonts/Nikosh-BoldItalic.ttf]]></boldItalic>
+        -->
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+    </fontFamily>
+</fontFamilies>

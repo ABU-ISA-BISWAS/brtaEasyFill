@@ -1,0 +1,80 @@
+# =============================
+# Operating System files
+# =============================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# =============================
+# Logs
+# =============================
+logs/
+*.log
+*.gz
+
+# =============================
+# Eclipse / STS
+# =============================
+.metadata/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# =============================
+# IntelliJ IDEA
+# =============================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =============================
+# NetBeans
+# =============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# =============================
+# VS Code
+# =============================
+.vscode/
+
+# =============================
+# Maven
+# =============================
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# =============================
+# Temporary files
+# =============================
+*.tmp
+*.swp
+*.bak
+*~ 
+
+# =============================
+# HELP / Documentation
+# =============================
+HELP.md
+
+# =============================
+# Spring Boot / Java
+# =============================
+spring.log
