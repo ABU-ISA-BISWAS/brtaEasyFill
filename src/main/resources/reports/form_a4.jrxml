@@ -57,7 +57,7 @@
 				<reportElement x="15" y="759" width="60" height="16" uuid="3e8d7f4d-3b5f-4d55-b431-e09e4380ea48">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
-				<textFieldExpression><![CDATA[" Printed on :"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[" Printed on ::"]]></textFieldExpression>
 			</textField>
 			<break>
 				<reportElement x="0" y="781" width="100" height="1" uuid="b48ea893-27a0-4aa8-9bd8-264e81a6f8f4"/>
@@ -592,7 +592,7 @@
 				<textElement textAlignment="Right">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Software by :: Kawsar Ullah "]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="80" y="759" width="120" height="16" uuid="041b3108-a893-4179-ad65-d961612d9eff">
@@ -641,7 +641,7 @@
 				<textElement textAlignment="Left">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Printed by: " +$F{createdByName}]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Printed by:: " +$F{createdByName}]]></textFieldExpression>
 			</textField>
 		</band>
 		<band height="782">
@@ -1855,8 +1855,7 @@
 				<textFieldExpression><![CDATA[($F{viSellPrice} != null && !$F{viSellPrice}.trim().isEmpty()) 
     ? com.isa.brtaeasyfill.util.NumberToWordsUtil.convertNumberToWords($F{viSellPrice}) 
         + " (" + $F{viSellPrice} + ")" 
-    : ""
-]]></textFieldExpression>
+    : ""]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="15" y="499" width="352" height="17" uuid="8d057e2e-6a65-433c-9c99-ae7be264f76f">

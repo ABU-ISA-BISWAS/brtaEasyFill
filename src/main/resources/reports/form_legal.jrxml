@@ -479,7 +479,7 @@
 				<reportElement x="19" y="630" width="60" height="16" uuid="fc88fe65-2df9-4250-b083-6b35d71f8aa8">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
-				<textFieldExpression><![CDATA[" Printed on :"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[" Printed on ::"]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="84" y="630" width="120" height="16" uuid="fcec6c78-e2ff-42d9-8caa-d6ded3fcf76e">
@@ -494,7 +494,7 @@
 				<textElement textAlignment="Right">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Software by :: Kawsar Ullah "]]></textFieldExpression>
 			</textField>
 			<break>
 				<reportElement x="0" y="649" width="100" height="1" uuid="091624f1-4371-42b3-8eb9-2ee0c21e29d2">
@@ -548,7 +548,7 @@
 				<textElement textAlignment="Left">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Printed by: " +$F{createdByName}]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Printed by:: " +$F{createdByName}]]></textFieldExpression>
 			</textField>
 		</band>
 		<band height="650">
@@ -762,8 +762,7 @@
 				<textFieldExpression><![CDATA[($F{viSellPrice} != null && !$F{viSellPrice}.trim().isEmpty()) 
     ? com.isa.brtaeasyfill.util.NumberToWordsUtil.convertNumberToWords($F{viSellPrice}) 
         + " (" + $F{viSellPrice} + ")" 
-    : ""
-]]></textFieldExpression>
+    : ""]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="228" y="630" width="130" height="16" uuid="86a7b008-a125-49a1-85dc-f6f51ee5fea8">
@@ -1630,8 +1629,7 @@
 				<textFieldExpression><![CDATA[($F{viSellPrice} != null && !$F{viSellPrice}.trim().isEmpty()) 
     ? com.isa.brtaeasyfill.util.NumberToWordsUtil.convertNumberToWords($F{viSellPrice}) 
         + " (" + $F{viSellPrice} + ")" 
-    : ""
-]]></textFieldExpression>
+    : ""]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="228" y="630" width="130" height="16" uuid="b625c5a3-3119-4399-9cf4-bddd07d5a197">
