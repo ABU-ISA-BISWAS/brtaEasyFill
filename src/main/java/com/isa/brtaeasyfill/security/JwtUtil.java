@@ -26,7 +26,7 @@ public class JwtUtil {
         key = Keys.hmacShaKeyFor(secret.getBytes());
     }
 
-    // ✅ Generate token (valid for 2 hours)
+    //  Generate token (valid for 2 hours)
     public String generateToken(String username, String role) {
         Map<String, Object> claims = new HashMap<>();
         claims.put("role", role);

@@ -1,16 +1,17 @@
-
-
 package com.isa.brtaeasyfill.service.implementation;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
 
 import com.isa.brtaeasyfill.model.AppUser;
 import com.isa.brtaeasyfill.model.BefModel;
 import com.isa.brtaeasyfill.repository.BefRepository;
 import com.isa.brtaeasyfill.repository.UserRepository;
 import com.isa.brtaeasyfill.service.BefService;
-import jakarta.servlet.http.HttpServletRequest;
-import org.springframework.stereotype.Service;
 
-import java.util.List;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.transaction.Transactional;
 
 @Service
 public class Implementation implements BefService {
@@ -26,18 +27,17 @@ public class Implementation implements BefService {
 
     @Override
     public BefModel saveForm(BefModel form) {
-        // ✅ Get logged-in user from request
+        // Get logged-in user from request
         String username = request.getUserPrincipal().getName();
 
         AppUser user = userRepository.findByUsername(username)
                 .orElseThrow(() -> new RuntimeException("User not found"));
 
-
         if (user == null) {
             throw new RuntimeException("User not found for username: " + username);
         }
 
-        // ✅ Attach createdBy before saving
+        // Attach createdBy before saving
         form.setCreatedByName(user.getName());
 
         return befRepository.save(form);
@@ -54,8 +54,15 @@ public class Implementation implements BefService {
     }
 
     @Override
+    @Transactional
     public BefModel updateForm(Long id, BefModel form) {
         BefModel existing = getFormById(id);
+        
+        String username = request.getUserPrincipal().getName();
+
+        AppUser user = userRepository.findByUsername(username)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+        existing.setCreatedByName(user.getName());
 
         // Vehicle info
         existing.setRegAuth(form.getRegAuth());

@@ -29,7 +29,7 @@ public class LicenseExpiryScheduler {
     @Autowired
     private LicenseNotificationService licenseNotificationService;
 
-    @Scheduled(fixedRate = 60000)
+    @Scheduled(cron = "0 0 10 * * ?")
     public void deactivateExpiredInstitutes() {
         Date now = new Date();
         long nowMillis = now.getTime();

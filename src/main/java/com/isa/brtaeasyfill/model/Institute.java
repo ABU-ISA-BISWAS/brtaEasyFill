@@ -17,7 +17,6 @@ public class Institute {
     private Date licenseExpiry;
     private String status; // ACTIVE, INACTIVE
 
-    // --- Getters & Setters ---
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 

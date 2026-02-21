@@ -78,13 +78,13 @@ public class AuthController {
             }
         }
 
-        // 🔐 Generate token
+        //  Generate token
         String token = jwtUtil.generateToken(user.getUsername(), user.getRole());
 
-        // 🔒 Remove password before sending user data
+        //  Remove password before sending user data
         user.setPassword(null);
 
-        // ✅ Create response
+        // Create response
         Map<String, Object> response = new HashMap<>();
         response.put("token", token);
         response.put("instituteId", user.getInstitute() != null ? user.getInstitute().getId() : null);
@@ -95,7 +95,7 @@ public class AuthController {
 
 
 
-    // ✅ NEW: Refresh Token API
+    //  NEW: Refresh Token API
     @PostMapping("/refresh-token")
     public ResponseEntity<?> refreshToken(HttpServletRequest request) {
         String authHeader = request.getHeader("Authorization");
@@ -114,7 +114,7 @@ public class AuthController {
             String username = jwtUtil.extractUsername(oldToken);
             String role = jwtUtil.extractRole(oldToken);
 
-            // 🔁 Issue a new token (with fresh 2h expiry)
+            //  Issue a new token (with fresh 2h expiry)
             String newToken = jwtUtil.generateToken(username, role);
 
             return ResponseEntity.ok(Map.of("token", newToken));

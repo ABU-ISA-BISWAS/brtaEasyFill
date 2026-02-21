@@ -101,22 +101,11 @@ public class BefController {
         AppUser user = appUserRepository.findByUsername(username)
                 .orElseThrow(() -> new RuntimeException("User not found"));
 
-       
-
-
         if (!isUserAuthorized(user)) {
             return ResponseEntity.status(403).body("Your institute license has expired");
         }
 
         BefModel saved = befService.saveForm(form);
-        
-        // Auto-generate both A4 (4 pages) and Stamp (6 pages)
-        try {
-            formReportService.generateA4(saved.getId());
-            formReportService.generateStamp(saved.getId());
-        } catch (Exception ex) {
-            System.err.println("[WARN] PDF pre-generation failed: " + ex.getMessage());
-        }
 
         return new ResponseEntity<>(saved, HttpStatus.CREATED);
     }
@@ -171,7 +160,5 @@ public class BefController {
 
         return ResponseEntity.ok(response);
     }
-
-
 
 }

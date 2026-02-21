@@ -17,7 +17,7 @@ import java.util.Optional;
 @PreAuthorize("hasRole('SUPERADMIN')")
 @RestController
 @RequestMapping("/api/institutes")
-@CrossOrigin // Enable CORS for frontend
+@CrossOrigin 
 public class InstituteController {
 
 @Autowired

@@ -24,8 +24,8 @@ public class LicenseScheduler {
         this.notificationRepository = notificationRepository;
     }
 
-    // 🔁 Scheduled task
-    @Scheduled(cron = "0 0 8 * * ?")
+    //  Scheduled task
+    @Scheduled(cron = "0 0 10 * * ?")
     public void checkLicenseExpiries() {
         List<Institute> institutes = instituteRepository.findAll();
         Date today = new Date();
@@ -65,7 +65,7 @@ public class LicenseScheduler {
         }
     }
 
-    // ✅ Helper method to get start of day
+    //  Helper method to get start of day
     private Date getStartOfDay(Date date) {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);
@@ -76,7 +76,7 @@ public class LicenseScheduler {
         return calendar.getTime();
     }
 
-    // ✅ Helper method to get end of day
+    //  Helper method to get end of day
     private Date getEndOfDay(Date date) {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);

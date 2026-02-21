@@ -17,6 +17,12 @@ public class NotificationService {
         notification.setReadStatus(true);
         notificationRepository.save(notification);
     }
+    
+    public void deleteNotification(Long id) {
+        Notification n = notificationRepository.findById(id)
+            .orElseThrow(() -> new RuntimeException("Notification not found"));
+        notificationRepository.deleteById(id); 
+    }
 
 }
 

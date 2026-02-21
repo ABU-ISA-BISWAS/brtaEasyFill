@@ -712,7 +712,7 @@
 				<textElement textAlignment="Right">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Software by :: Kawsar Ullah "]]></textFieldExpression>
 			</textField>
 			<break>
 				<reportElement x="0" y="649" width="100" height="1" uuid="6187ad07-dca0-4270-af31-1bf518e95715">
@@ -828,7 +828,7 @@
 				<textElement textAlignment="Right">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Software by :: Kawsar Ullah "]]></textFieldExpression>
 			</textField>
 			<break>
 				<reportElement x="0" y="649" width="100" height="1" uuid="077f7d3e-30df-4f54-bbf4-0b43628c2881">
@@ -1362,7 +1362,7 @@
 				<textElement textAlignment="Right">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Software by :: Kawsar Ullah "]]></textFieldExpression>
 			</textField>
 			<break>
 				<reportElement x="0" y="649" width="100" height="1" uuid="d4d93d4c-7fc0-4b1b-b3d4-32262ac66e6c">
@@ -1579,7 +1579,7 @@
 				<textElement textAlignment="Right">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Software by :: Kawsar Ullah "]]></textFieldExpression>
 			</textField>
 			<break>
 				<reportElement x="0" y="649" width="100" height="1" uuid="a6f4d072-f180-41af-85f6-8819f2e89d58">
@@ -1695,7 +1695,7 @@
 				<textElement textAlignment="Right">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Software by :: Kawsar Ullah "]]></textFieldExpression>
 			</textField>
 			<break>
 				<reportElement x="0" y="649" width="100" height="1" uuid="292f88d2-d04a-4add-9d1e-8c6a9b3dd5fa">

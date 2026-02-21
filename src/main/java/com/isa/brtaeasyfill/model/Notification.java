@@ -27,7 +27,7 @@ public class Notification {
     @Column(name = "read_status")
     private Boolean readStatus; // UNREAD, READ
 
-    // --- GETTERS AND SETTERS ---
+ 
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 

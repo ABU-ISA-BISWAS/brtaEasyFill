@@ -74,12 +74,10 @@ public class BefModel {
     private String buProfession;
     private String buPhone;
 
-    // Created by user
 
  @Column(name = "created_by")
  private String createdByName;
 
- // Getter & Setter
  public String getCreatedByName() {
      return createdByName;
  }

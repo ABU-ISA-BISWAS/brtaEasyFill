@@ -1167,7 +1167,7 @@
 				<textElement textAlignment="Right">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Software by :: Kawsar Ullah "]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="80" y="759" width="120" height="16" uuid="18bc9af5-157d-4d01-a792-a369567fc497">
@@ -1795,7 +1795,7 @@
 				<textElement textAlignment="Right">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Software by :: Kawsar Ullah "]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="80" y="759" width="120" height="16" uuid="fcc1c4ee-a112-4244-b28a-70b4527b939e">
@@ -3024,7 +3024,7 @@ of ownership transfer)]]></text>
 				<textElement textAlignment="Right">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Software by :: Abu Isa "]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Software by :: Kawsar Ullah "]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="228" y="759" width="130" height="16" uuid="7e235b01-47bc-4e76-bdd3-527f0df2279e">

@@ -1,20 +1,3 @@
-//package com.isa.brtaeasyfill.repository;
-//
-//import com.isa.brtaeasyfill.model.AppUser;
-//import com.isa.brtaeasyfill.model.Institute;
-//import org.springframework.data.jpa.repository.JpaRepository;
-//
-//import java.util.List;
-//
-//public interface UserRepository extends JpaRepository<AppUser, Long> {
-//    List<AppUser> findByInstitute(Institute institute);
-//    AppUser findByUsername(String username);
-//    AppUser findTopByInstituteId(Long instituteId);
-//    // for login/auth
-//    boolean existsByUsername(String username); // for registration
-//}
-
-
 
 package com.isa.brtaeasyfill.repository;
 
@@ -33,7 +16,6 @@ public interface UserRepository extends JpaRepository<AppUser, Long> {
     AppUser findTopByInstituteId(Long instituteId);
     boolean existsByUsername(String username);
     
-//    Optional<AppUser> findByResetToken(String resetToken);
 
 }
 
